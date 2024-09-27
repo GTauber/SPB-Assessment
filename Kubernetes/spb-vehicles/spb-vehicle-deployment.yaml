@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spb-vehicle-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spb-vehicle
+  template:
+    metadata:
+      labels:
+        app: spb-vehicle
+    spec:
+      containers:
+        - name: spb-vehicle
+          image: spb-vehicles
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:mysql://mysql:3306/spb_vehicles
+            - name: SPRING_DATASOURCE_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: mysql-user
+            - name: SPRING_DATASOURCE_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: mysql-password
+
+#            FLYWAY
+            - name: SPRING_FLYWAY_URL
+              value: jdbc:mysql://mysql:3306/spb_vehicles
+            - name: SPRING_FLYWAY_USER
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: mysql-user
+            - name: SPRING_FLYWAY_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: mysql-password
+
+#            - name: EUREKA_INSTANCE_INSTANCE_ID
+#              value: ${spring.application.name}:${random.value}
+#            - name: EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE
+#              value: http://spb-cloud-eureka:8761/eureka

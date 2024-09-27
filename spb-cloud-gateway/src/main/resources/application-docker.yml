@@ -1,0 +1,6 @@
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+  client:
+    service-url:
+      defaultZone: http://spb-cloud-eureka:8761/eureka

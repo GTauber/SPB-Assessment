@@ -1,0 +1,17 @@
+services:
+  as-authUser-mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: spb_cloud
+      MYSQL_USER: tauber
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - '3306:3306'
+    restart: always
+    networks:
+      - authUserNetwork
+
+networks:
+  authUserNetwork:
+    driver: bridge

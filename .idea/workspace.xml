@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c95fcee-56ad-48b3-a00f-139907e519af" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/EurekaServer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spb-and-cloud">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spb-cloud-gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spb-final-gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/vehicles">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/spb-and-cloud">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/EurekaServer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spb-cloud-gateway">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/vehicles">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vehicles" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vehicles" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vehicles" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="com.intellij.jpb.NewRecord" />
+        <option value="com.intellij.jpb.NewInterface" />
+        <option value="Class" />
+        <option value="Kubernetes Deployment" />
+        <option value="Kubernetes Service" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mJA8kCrkVMK27ABYhLue4bYRDm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.spb-cloud.spb-and-cloud: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.spb-cloud.spb-cloud-mysql: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.spb-cloud: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;DtoCreateDialog.USE_JAVA_RECORDS_INITIAL_PROP_KEY&quot;: &quot;true&quot;,
+    &quot;Gradle.Build EurekaServer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build spb-and-cloud.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build spb-cloud-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build vehicles.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EurekaServer [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.VehicleControllerTest.deleteVehicleSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.VehicleControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.VehicleControllerTest.testCreateVehicle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.VehicleControllerTest.testGetAllVehicles.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.VehicleControllerTest.updateVehicleNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WeatherControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WeatherControllerTest.getWeatherForecastSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WeatherControllerTest.getWeatherForecastWithInvalidParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WeatherControllerTest.getWeatherForecastWithoutParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spb-and-cloud [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spb-and-cloud [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spb-cloud-gateway [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spb-cloud-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.vehicles [build].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SpbAndCloudApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.TcmGatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.VehiclesApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/gtauber/Documents/Development/College/2024/T3/Springboot-Cloud-Devops/SPB-Final/EurekaServer/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gtauber/Documents/Development/College/2024/T3/Springboot-Cloud-Devops/SPB-Final/vehicles&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vehicles" />
+      <recent name="$PROJECT_DIR$/spb-and-cloud" />
+      <recent name="$PROJECT_DIR$/spb-and-cloud/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vehicles/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="spb.cloud.general.controller" />
+      <recent name="spb.cloud.vehicles.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spb.cloud.vehicles.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.WeatherControllerTest">
+    <configuration name="WeatherControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spb-and-cloud" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;spb.cloud.general.controller.WeatherControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WeatherControllerTest.getWeatherForecastSuccessfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spb-and-cloud" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;spb.cloud.general.controller.WeatherControllerTest.getWeatherForecastSuccessfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WeatherControllerTest.getWeatherForecastWithInvalidParams" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spb-and-cloud" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;spb.cloud.general.controller.WeatherControllerTest.getWeatherForecastWithInvalidParams&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WeatherControllerTest.getWeatherForecastWithoutParams" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spb-and-cloud" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;spb.cloud.general.controller.WeatherControllerTest.getWeatherForecastWithoutParams&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EurekaServer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spb.cloud.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehiclesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="vehicles.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spb.cloud.vehicles.VehiclesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="spb-cloud.spb-cloud-mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="spb-cloud-mysql" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Docker/spb-cloud/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.WeatherControllerTest" />
+        <item itemvalue="Gradle.WeatherControllerTest.getWeatherForecastWithInvalidParams" />
+        <item itemvalue="Gradle.WeatherControllerTest.getWeatherForecastSuccessfully" />
+        <item itemvalue="Gradle.WeatherControllerTest.getWeatherForecastWithoutParams" />
+        <item itemvalue="Docker.spb-cloud.spb-cloud-mysql: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c95fcee-56ad-48b3-a00f-139907e519af" name="Changes" comment="" />
+      <created>1712754213971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712754213971</updated>
+      <workItem from="1712754215166" duration="108000" />
+      <workItem from="1726784148267" duration="7834000" />
+      <workItem from="1726867023646" duration="1030000" />
+      <workItem from="1726868062236" duration="612000" />
+      <workItem from="1726868754764" duration="1166000" />
+      <workItem from="1726870704984" duration="631000" />
+      <workItem from="1726871421724" duration="117000" />
+      <workItem from="1726871571762" duration="11668000" />
+      <workItem from="1726932899739" duration="14662000" />
+      <workItem from="1727039917706" duration="11787000" />
+      <workItem from="1727146981923" duration="120000" />
+      <workItem from="1727147570364" duration="1636000" />
+      <workItem from="1727284919501" duration="14000" />
+      <workItem from="1727447816958" duration="1649000" />
+      <workItem from="1727461980391" duration="1337000" />
+      <workItem from="1727463373136" duration="3466000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vehicles/src/main/java/spb/cloud/vehicles/controller/VehicleController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

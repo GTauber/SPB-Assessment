@@ -1,0 +1,46 @@
+server:
+  port: ${PORT:0}
+
+spring:
+  profiles:
+    default: local
+    active: local,deps
+  application:
+    name: spb-cloud-general
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/spb_cloud
+    username: root
+    password: secret
+  docker:
+    compose:
+      file: Docker/spb-cloud/docker-compose.yml
+      lifecycle-management: start_only
+      profiles:
+        active: spb-cloud-general
+      enabled: false
+
+logging:
+  level:
+    web: debug
+    io:
+      r2dbc:
+        pool: debug
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+weather:
+  api:
+    url: https://api.open-meteo.com/v1

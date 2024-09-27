@@ -1,0 +1,60 @@
+spring:
+  profiles:
+    default: local
+    active: local
+  application:
+    name: spb-cloud-gateway
+
+  cloud:
+    gateway:
+      default-filters:
+        - PreserveHostHeader=true
+      routes:
+        - id: general
+          uri: lb://SPB-CLOUD-GENERAL
+          predicates:
+            - Path=/general/**,/swagger-ui.html,/v3/api-docs/**
+          filters:
+            - StripPrefix=1
+
+        - id: vehicle
+          uri: lb://SPB-VEHICLES
+          predicates:
+            - Path=/vehicle/**,/swagger-ui.html,/v3/api-docs/**
+          filters:
+            - StripPrefix=1
+
+server:
+  port: 9999
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+    groups:
+      enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    urls:
+      - url: /general/v3/api-docs
+        name: General API Docs
+      - url: /vehicle/v3/api-docs
+        name: Vehicle API Docs
+

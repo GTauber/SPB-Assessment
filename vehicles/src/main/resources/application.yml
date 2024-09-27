@@ -1,0 +1,50 @@
+server:
+  port: ${PORT:0}
+
+spring:
+  profiles:
+    default: local
+    active: local,deps
+  application:
+    name: spb-vehicles
+  docker:
+    compose:
+      file: Docker/spb-cloud/docker-compose.yml
+      lifecycle-management: start_only
+      profiles:
+        active: spb-vehicle
+      enabled: false
+  flyway:
+    url: jdbc:mysql://localhost:3306/spb_vehicles
+    user: root
+    password: secret
+  datasource:
+    url: jdbc:mysql://localhost:3306/spb_vehicles
+    username: root
+    password: secret
+
+  jpa:
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+    hibernate:
+      ddl-auto: none
+
+#eureka:
+#  instance:
+#    instance-id: ${spring.application.name}:${random.value}
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

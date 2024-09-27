@@ -1,0 +1,21 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://spb-cloud-mysql:3306/spb_cloud
+    username: root
+    password: secret
+  docker:
+    compose:
+      file: Docker/spb-cloud-compose/docker-compose.yml
+      lifecycle-management: none
+      enabled: false
+  flyway:
+    url: jdbc:mysql://spb-cloud-mysql:3306/spb_cloud
+    user: root
+    password: secret
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+  client:
+    service-url:
+      defaultZone: http://spb-cloud-eureka:8761/eureka

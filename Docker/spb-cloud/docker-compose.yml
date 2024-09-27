@@ -1,0 +1,62 @@
+services:
+  spb-cloud-mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+    ports:
+      - '3306:3306'
+    restart: always
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - spb
+
+  spb-cloud-eureka:
+    image: spb-eureka-server
+    depends_on:
+      - spb-cloud-mysql
+    ports:
+      - "8761:8761"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spb
+
+  spb-and-cloud:
+    image: spb-cloud
+    depends_on:
+      - spb-cloud-eureka
+      - spb-cloud-mysql
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spb
+
+  spb-vehicles:
+    image: spb-vehicles
+    depends_on:
+      - spb-and-cloud
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spb
+
+  spb-gateway:
+    image: spb-gateway
+    depends_on:
+      - spb-vehicles
+    ports:
+      - "9999:9999"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spb
+
+
+
+networks:
+  spb:
+    driver: bridge
