@@ -24,6 +24,8 @@ import spb.cloud.vehicles.service.VehicleService;
 @Slf4j
 public class VehicleController {
 
+//    test git actions
+
     private final VehicleService vehicleService;
     private final VehicleMapper vehicleMapper;
 
